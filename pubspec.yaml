@@ -33,6 +33,7 @@ dependencies:
   firebase_core: ^1.24.0
   flutter:
     sdk: flutter
+  get: ^4.6.5
   lottie: ^1.4.2
   shared_preferences: ^2.0.15
 

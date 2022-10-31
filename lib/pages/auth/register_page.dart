@@ -42,7 +42,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       const Text(
-                        'Groupie',
+                        'Chats.go',
                         style: TextStyle(
                             fontSize: 40, fontWeight: FontWeight.bold),
                       ),

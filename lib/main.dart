@@ -1,4 +1,5 @@
 import 'package:chat_app/pages/auth/login_page.dart';
+
 import 'package:chat_app/pages/home_page.dart';
 import 'package:chat_app/shared/constraints.dart';
 import 'package:firebase_core/firebase_core.dart';

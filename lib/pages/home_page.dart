@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
               selectedColor: Theme.of(context).primaryColor,
               contentPadding:
                   const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-              leading: const Icon(Icons.group),
+              leading: const Icon(Icons.person),
               title: const Text(
                 "Profile",
                 style: TextStyle(color: Colors.black),

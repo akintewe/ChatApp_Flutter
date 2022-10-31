@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       const Text(
-                        'Groupie',
+                        'Chats.go',
                         style: TextStyle(
                             fontSize: 40, fontWeight: FontWeight.bold),
                       ),
@@ -146,7 +146,14 @@ class _LoginPageState extends State<LoginPage> {
                                   nextScreen(context, const RegisterPage());
                                 })
                         ],
-                      ))
+                      )),
+                      SizedBox(
+                        height: 30,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text('From Nathan')],
+                      )
                     ],
                   ),
                 ),
